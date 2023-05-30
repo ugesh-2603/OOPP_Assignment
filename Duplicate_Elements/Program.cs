@@ -1,10 +1,12 @@
-﻿namespace Duplicate_Elements
+﻿using System;
+
+namespace Duplicate_Elements
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 1, 2, 3, 4, 1, 2, 4, 4, 5, 5};
+            /*int[] numbers = { 1, 2, 3, 4, 1, 2, 4, 4, 5, 5};
             int count = 0;
 
             // Loop through each element in the array
@@ -29,7 +31,16 @@
             }
 
             // Display the total number of duplicate elements
-            Console.WriteLine("Total number of duplicate elements: " + count);
+            Console.WriteLine("Total number of duplicate elements: " + count);*/
+            Console.WriteLine("Please Choose any one program from below option");
+            Console.WriteLine("1.Duplicate_Element\n2.Unique_Elements");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 2:
+                    Unique_Elements.Unique();
+                    break;
+            }
         }
     }
 }
