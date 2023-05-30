@@ -8,10 +8,10 @@ namespace Duplicate_Elements
         {
 
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Duplicate_Element");
+            Console.WriteLine("1.Duplicate_Element\n2.Unique_Elements\n3.Count_the_frequency");
             int option = Convert.ToInt32(Console.ReadLine());
            
-            Console.WriteLine("1.Duplicate_Element\n2.Unique_Elements");
+            
            
             switch (option)
             {
@@ -21,6 +21,10 @@ namespace Duplicate_Elements
 
                 case 2:
                     Unique_Elements.Unique();
+                    break;
+
+                case 3:
+                    Count_the_frequency.Count_frequency();
                     break;
             }
 
