@@ -8,7 +8,7 @@ namespace Duplicate_Elements
         {
 
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Duplicate_Element\n2.Unique_Elements\n3.Count_the_frequency\n4.Min_Max_Element\n5.Star_Pattern\n6.Square_Star_Pattern");
+            Console.WriteLine("1.Duplicate_Element\n2.Unique_Elements\n3.Count_the_frequency\n4.Min_Max_Element\n5.Star_Pattern\n6.Square_Star_Pattern\n7.Reverse_a_word");
             int option = Convert.ToInt32(Console.ReadLine());
            
             
@@ -38,6 +38,12 @@ namespace Duplicate_Elements
                 case 6:
                     Square_Star_Pattern.SquareStar();
                     break;
+
+                case 7:
+                    Reverse_a_word.Reverse();
+                    break;
+
+
 
             }
 
