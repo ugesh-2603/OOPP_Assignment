@@ -10,7 +10,7 @@ namespace Duplicate_Elements
     {
         public static void Duplicate()
         {
-            int[] numbers = { 1, 2, 3, 4, 1, 2, 4, 4, 5, 5 };
+            int[] numbers = { 1, 2, 3, 4, 1, 2, 4, 4, 5, 5 };  // array to store numbers
             int count = 0;
 
             // Loop through each element in the array
